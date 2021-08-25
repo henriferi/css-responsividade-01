@@ -1,0 +1,50 @@
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    background-color: black;
+}
+div{
+    text-align: center;
+}
+
+img{
+    width: 350px; height: 350px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    background-color: black;
+    text-align: center;
+}
+#religiao{
+    font-family: cursive, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    display: inline-block;
+    margin: 30px;
+}
+#cultura{
+    font-family: cursive, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    float: right;
+    margin: 30px;
+}
+@media (max-width: 750px) {
+
+#imgs{
+     display: none;
+    }
+    #cultura{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #religiao{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

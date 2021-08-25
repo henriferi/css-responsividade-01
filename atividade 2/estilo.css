@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    Background: #5F7285
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 105px;
+    text-align: center;
+    color:#FFF;
+    opacity: 0.5;
+    margin: 20px;
+}
+#div1{
+    font-family: "Nunito";
+    text-align: center;
+    color: #FFF;
+}
+.titulo-secundario{
+    font-size: 22px;
+    margin: 10px;
+    color: black;
+}
+img{
+    width: 350px; height: 300px;
+    margin: 20px;
+    border: double;
+    border-color: #829DAD;
+}
+p{
+    font-size: 14px;
+}
+#footer{
+    margin-top: 50px;
+    text-align: center;
+    color: #FFF;
+}
+.rodape{
+    font-weight: bold;
+    color: black;
+}
+a{
+ color:blue; 
+ text-decoration: none; 
+}
+a:hover{
+    color:#36B0E0;
+}
+a:active{
+    color:black;
+}
